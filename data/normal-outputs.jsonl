@@ -1,0 +1,4 @@
+{"batch": "b1", "id": "p1", "kg": 60, "product": "main"}
+{"batch": "b1", "id": "p2", "kg": 20, "product": "side"}
+{"batch": "b2", "id": "p3", "kg": 65, "product": "main"}
+{"batch": "b2", "id": "p4", "kg": 18, "product": "side"}

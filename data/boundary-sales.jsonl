@@ -1,0 +1,3 @@
+{"batch": "b1", "currency": "CNY", "id": "c1", "internal": false, "kg": 0, "month": 1, "price": 15, "product": "main"}
+{"batch": "b1", "currency": "CNY", "id": "c2", "internal": true, "kg": 10, "month": 1, "price": 3, "product": "side"}
+{"batch": "b2", "currency": "CNY", "id": "c3", "internal": false, "kg": 60, "month": 2, "price": 16, "product": "main"}

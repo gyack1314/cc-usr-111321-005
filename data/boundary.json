@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "tables": {
+    "production": {
+      "file": "boundary-production.jsonl",
+      "sha256": "4f82fe39f87450ec36ba49f9696285e68e7f7b87537ffd365d0a5d59d25839c8",
+      "bytes": 154,
+      "rows": 2,
+      "fields": [
+        "id",
+        "month",
+        "input_kg",
+        "raw_cost",
+        "joint_cost"
+      ]
+    },
+    "outputs": {
+      "file": "boundary-outputs.jsonl",
+      "sha256": "2f5b512b711ec6607d7f2fa2233e74289e173c869fe8c184600b0011c7df04c7",
+      "bytes": 228,
+      "rows": 4,
+      "fields": [
+        "id",
+        "batch",
+        "product",
+        "kg"
+      ]
+    },
+    "sales": {
+      "file": "boundary-sales.jsonl",
+      "sha256": "540e0f6d315556d1916a489a447ac64bf233970b65bc9e7cb6278bbe66d78175",
+      "bytes": 357,
+      "rows": 3,
+      "fields": [
+        "id",
+        "month",
+        "batch",
+        "product",
+        "kg",
+        "price",
+        "currency",
+        "internal"
+      ]
+    },
+    "fx": {
+      "file": "boundary-fx.jsonl",
+      "sha256": "9e49d2c378c81ca865385663e50e4e931d172a28699ecfcbdcbd953036efe409",
+      "bytes": 110,
+      "rows": 2,
+      "fields": [
+        "id",
+        "month",
+        "currency",
+        "rate"
+      ]
+    }
+  }
+}
